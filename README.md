@@ -1,16 +1,30 @@
-## Hi there 👋
+<h1 >Hello! I'm Faizan Mulla 👋</h1> 
 
-<!--
-**faizanxmulla/faizanxmulla** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+- 🎯 Currently pursuing BS in Data Science & Applications from Indian Institute of Technology, Madras
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- :mortar_board: Computer Science undergraduate from Mumbai University
+
+- :blue_book: Passionate about learning new technologies, especially related to Data Science!
+  
+- :mailbox: I am open to any internship and fulltime opportunities in Data Science & Machine Learning!
+
+</div>
+
+---
+
+
+
+
+<p align="center">
+  <img height="195" width="auto" src="https://github-readme-stats.vercel.app/api?username=faizanxmulla&theme=material-palenight&hide_border=false&include_all_commits=false&count_private=false">
+  <img height="195" width="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=faizanxmulla&theme=material-palenight&hide_border=false&include_all_commits=false&count_private=false&layout=compact">
+  <img height="195" width="auto" src="https://github-readme-streak-stats.herokuapp.com/?user=faizanxmulla&theme=material-palenight&hide_border=false">
+
+  <br>
+  <br>
+
+  <a href="https://www.buymeacoffee.com/faizanxmulla"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="50" width="210" alt="aveek.saha" /></a>
+</p>
+
+
