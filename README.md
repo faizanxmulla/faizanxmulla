@@ -1,5 +1,4 @@
-<h1 >Hello! I'm Faizan Mulla 👋</h1> 
-
+<h1 >Hello! I'm Faizan Mulla <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif"width="30px"></h1> 
 
 - 🎯 Currently pursuing BS in Data Science & Applications from Indian Institute of Technology, Madras
 
@@ -11,9 +10,7 @@
 
 </div>
 
----
-
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
 <p align="center">
@@ -31,4 +28,5 @@
   <img src="https://profile-counter.glitch.me/faizanxmulla/count.svg" />
 </p>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
