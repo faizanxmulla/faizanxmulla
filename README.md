@@ -2,7 +2,7 @@
 
 - 🎯 Currently pursuing BS in Data Science & Applications from Indian Institute of Technology, Madras
 
-- :mortar_board: Computer Science undergraduate from Mumbai University
+- :mortar_board: Computer Science graduate from Mumbai University
 
 - :blue_book: Passionate about learning new technologies, especially related to Data Science!
   
