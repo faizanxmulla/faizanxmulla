@@ -1,14 +1,44 @@
 <h1 >Hello! I'm Faizan Mulla <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif"width="30px"></h1> 
 
-- 🎯 Currently pursuing BS in Data Science & Applications from Indian Institute of Technology, Madras
+- :office: **Data Analyst** at **Enrich Hair & Skin Solutions**, developing and optimizing dashboards in Looker Studio & SQL to enable data-driven decisions across marketing, operations, and finance.
 
-- :mortar_board: Computer Science graduate from Mumbai University
+- 📊 Proficient in: `SQL` | `Python` | `Power BI` | `Looker Studio` | `Advanced Excel`
 
-- :blue_book: Passionate about learning new technologies, especially related to Data Science!
-  
-- :mailbox: I am open to any internship and fulltime opportunities in Data Science & Machine Learning!
+- :mortar_board: **Graduate with a double degree:**
+  - B.S. in Data Science & Applications from **Indian Institute of Technology, Madras**
+  - B.E. in Computer Engineering from **Mumbai University**
 
-</div>
+- :blue_book: **Passionate about learning new technologies**, especially related to Data Science!
+
+- :mailbox: **Open to new opportunities** in Data Analytics, Data Science, and Machine Learning!
+
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+
+**Finding the right candidate? This query might return a match:**
+
+```sql
+WITH TopCandidate AS (
+    SELECT 
+        *,
+        ROW_NUMBER() OVER (ORDER BY Impact desc) as rank
+    FROM 
+        Talented_Data_Analyst
+    WHERE 
+        Company = 'Enrich Hair & Skin Solutions'
+        and Graduation IN ('Data Science and Applications', 'Computer Engineering')
+        and University IN ('IIT-Madras', 'RAIT - Mumbai University')
+        and Skills IN ('SQL', 'Excel', 'Looker Studio', 'Python', 'Power BI')
+        and Experience = 1
+)
+SELECT
+  Name, Profile_Link, Skills
+FROM
+  TopCandidate
+WHERE
+  rank = 1
+```
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
