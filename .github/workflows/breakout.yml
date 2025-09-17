@@ -25,11 +25,15 @@ jobs:
           bricks_colors: "#e0f7fa,#b2ebf2,#4dd0e1,#0097a7,#006064"
           enable_ghost_bricks: false
 
+      - name: List output folder (debug)
+        run: ls -R output || echo "⚠️ No output folder found"
+
       - name: Move generated SVGs to temp
         run: |
           mkdir -p /tmp/breakout-images
-          mv output/light.svg /tmp/breakout-images/breakout-light.svg
-          mv output/dark.svg /tmp/breakout-images/breakout-dark.svg
+          if [ -f output/light.svg ]; then mv output/light.svg /tmp/breakout-images/breakout-light.svg; fi
+          if [ -f output/dark.svg ]; then mv output/dark.svg /tmp/breakout-images/breakout-dark.svg; fi
+          if [ -f output/custom.svg ]; then mv output/custom.svg /tmp/breakout-images/breakout-custom.svg; fi
 
       - name: Configure git
         run: |
@@ -41,7 +45,7 @@ jobs:
           git checkout --orphan github-breakout
           git rm -rf .
           mkdir images
-          mv /tmp/breakout-images/* images/
-          git add images
-          git commit -m "chore: update GitHub breakout SVGs" || echo "No changes to commit"
+          mv /tmp/breakout-images/* images/ || echo "⚠️ No images to move"
+          git add images || echo "⚠️ Nothing to add"
+          git commit -m "chore: update GitHub breakout SVGs" || echo "⚠️ No changes to commit"
           git push --force origin github-breakout
