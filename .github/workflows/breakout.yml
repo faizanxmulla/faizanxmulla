@@ -18,7 +18,7 @@ jobs:
       - name: generate SVG
         uses: cyprieng/github-breakout@v1
         with:
-          github_username: faizanxmulla
+          github_username: "faizanxmulla"
           github_token: ${{ secrets.GITHUB_TOKEN }}
           paddle_color: "#006064"
           ball_color: "#ff5722"
