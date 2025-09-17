@@ -53,10 +53,18 @@ WHERE
 
 </p>
 
-<p align="center"> 
-  Visitors count <br><br>
-  <img src="https://profile-counter.glitch.me/faizanxmulla/count.svg" />
-</p>
+
+<!--   Visitors count <br><br> -->
+<!--   <img src="https://profile-counter.glitch.me/faizanxmulla/count.svg" /> -->
+<!-- </p> -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/faizanxmulla/faizanxmulla/github-breakout/images/breakout-custom.svg"
+  />
+
+  <img alt="Breakout Game" src="https://raw.githubusercontent.com/faizanxmulla/faizanxmulla/github-breakout/images/breakout-custom.svg" />
+</picture>
